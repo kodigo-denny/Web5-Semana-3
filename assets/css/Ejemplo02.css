@@ -1,0 +1,15 @@
+.caja{
+    background-color:aquamarine;
+    border-top: 5px solid blue;
+    border-right: 10px double red;
+    border-bottom: 15px groove yellow;
+    border-left: 10px dotted green;
+    padding: 40px 10px;
+}
+img{
+    border: 5px solid yellow;
+    background-color: red;
+}
+.caja2{
+    margin: 30px 10px 50px 5px
+}
