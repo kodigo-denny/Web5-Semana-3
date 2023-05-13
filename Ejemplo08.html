@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media only print {
+            .publicidad{
+                visibility: hidden;
+            }
+        }
+        @media only screen and (max-width: 200px){
+            .caja{
+                background-color: red;
+            }
+        }
+        @media only screen and (min-width:201px) and (max-width: 400px){
+            .caja{
+                background-color: blue;
+            }
+        }
+        @media only screen and (min-width:401px){
+            .caja{
+                background-color: green;
+            }
+        }
+        
+        .caja{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="publicidad">Publicidad</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corrupti dolor deserunt iste doloribus. Asperiores officiis in cupiditate beatae? Quisquam, sed! Nobis eius ab mollitia sed dolorem, omnis assumenda neque.</p>
+    <div class="caja">
+
+    </div>
+</body>
+</html>
